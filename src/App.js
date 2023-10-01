@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import About from './Components/About';
 import Landing from './Components/Landing';
+import Counter from './Counter';
 import MyComponent from './MyComponent';
 import { MyContext, NewContext } from './MyContext';
 
@@ -18,13 +19,13 @@ function App() {
         </NewContext.Provider>
       </MyContext.Provider> */}
 
-      <NewContext.Provider value={{theme,setTheme}}>
+      {/* <NewContext.Provider value={{theme,setTheme}}>
         <About/>
         <Landing />
 
-      </NewContext.Provider>
+      </NewContext.Provider> */}
 
-
+        <Counter/>
     </div>
   );
 }

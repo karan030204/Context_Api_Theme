@@ -1,0 +1,24 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.counter button{
+    font-size: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    padding: 30px;
+    outline: none;
+    margin: 20px;
+}
+
+.counter .count-show{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
