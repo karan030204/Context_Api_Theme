@@ -1,4 +1,4 @@
-.about{
+/* .about{
     background-color: black;
     color: white;
     font-size: 350px;
@@ -63,4 +63,21 @@ button{
     border-radius: 20px;
     font-size: 150px;
     cursor: pointer;
+} */
+
+.redux-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+
 }
+
+.landing_wrapper.dark h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
